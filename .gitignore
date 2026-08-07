@@ -1,0 +1,4 @@
+vits_rasa_13_onnx/
+vits-rasa-13-onnx*/
+*.onnx
+*.wav
