@@ -20,7 +20,7 @@ Pre-exported models are hosted at: <https://huggingface.co/matiaslin/sherpa-onnx
 - Python 3.9+
 - An HF account with access to the (gated) `ai4bharat/vits_rasa_13` repo, and a token exported as `HF_TOKEN`.
 - Depending on which `sherpa-onnx` you plan to run against:
-  - **Default (`--expose-emotion`)**: requires `sherpa-onnx` with emotion-input support (PR TBD). The resulting model has a 7th `emotion_id` input.
+  - **Default (`--expose-emotion`)**: requires `sherpa-onnx` with emotion-input support (PR [#3849](https://github.com/k2-fsa/sherpa-onnx/pull/3849)). The resulting model has a 7th `emotion_id` input.
   - **`--no-expose-emotion`**: bakes one emotion id as a constant. The resulting model has the standard 6-input VITS signature.
 
 ```bash
